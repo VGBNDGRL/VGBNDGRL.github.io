@@ -1,139 +1,151 @@
 .content {
-  margin: auto;
-  max-width: 1000px;
-  height: 100%;
-  background-color: white;
-  background-image: url("/images/me_in_8bit.png");
-  background-position: right top;
-  background-size: 300px;
-  background-repeat: no-repeat;
+    margin: auto;
+    max-width: 1000px;
+    height: 100%;
+    background-color: white;
+    background-image: url("/images/me_in_8bit.png");
+    background-position: right top;
+    background-size: 250px;
+    background-repeat: no-repeat;
 }
 
 hr {
-  border: none;
-  height: 2px;
-  color: black;
-  background-color: black;
+    border: none;
+    height: 2px;
+    color: black;
+    background-color: black;
+}
+
+a:link {
+    color: rgb(71, 209, 209);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
 }
 
 .title-area-content {
-  font-family: Algerian;
-  font-size: xx-large;
-  margin-bottom: 150px;
+    font-family: Algerian;
+    font-size: xx-large;
+    margin-bottom: 100px;
 }
 
 .middle-table {
-  vertical-align: top;
-  font-family: "Book Antiqua"
+    vertical-align: top;
+    font-family: "Book Antiqua"
 }
-.middle-table>strong {
-  font-weight: bolder;
+
+.middle-table > strong {
+    font-weight: bolder;
 }
 
 
 .left-menu-content {
-  width: 150px;
-  height: 500px;
-  background-color: steelblue;
-  padding: 10px;
-  color: white;
+    width: 150px;
+    height: 530px;
+    background-color: rgb(0, 102, 153);
+    padding: 10px;
+    color: white;
 }
 
 
-.left-menu-content>h2 {
-  font-family: Algerian;
+.left-menu-content > h2 {
+    font-family: Algerian;
 }
-.left-menu-content>hr {
-  border: none;
-  height: 2px;
-  color: black;
-  background-color: white;
+
+.left-menu-content > hr {
+    border: none;
+    height: 2px;
+    color: black;
+    background-color: white;
 }
 
 .center-menu-content {
-  width: 600px;
-  height: 500px;
-  border-style: solid;
-  border-width: 3px;
-  border-color: black;
-  padding: 10px;
-  font-size: medium;
+    width: 600px;
+    height: 530px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    padding: 10px;
+    font-size: medium;
 }
 
-.center-menu-content>h2 {
-  font-family: Algerian;
+.center-menu-content > h2 {
+    font-family: Algerian;
 }
 
 .right-menu-content {
-  width: 150px;
-  height: 500px;
-  background-color: darkorange;
-  padding: 10px;
-  color: white;
-}
-.right-menu-content>hr {
-  border: none;
-  height: 2px;
-  color: black;
-  background-color: white;
+    width: 150px;
+    height: 530px;
+    background-color: rgb(153, 51, 102);
+    padding: 10px;
+    color: white;
 }
 
-.right-menu-content>h2 {
-  font-family: Algerian;
+.right-menu-content > hr {
+    border: none;
+    height: 2px;
+    color: black;
+    background-color: white;
+}
+
+.right-menu-content > h2 {
+    font-family: Algerian;
 }
 
 .footerContent {
-  width: 969px;
-  border-style: dashed;
-  border-color: darkolivegreen;
-  border-width: 5px;
-  padding-bottom: 75px;
+    width: 969px;
+    border-style: dashed;
+    border-color: darkolivegreen;
+    border-width: 5px;
+    padding-bottom: 25px;
 }
 
 .name {
-  text-align: left;
+    text-align: left;
 }
 
 .job-title {
-  text-align: left;
-}
-
-.left {
-  text-align: left;
+    text-align: left;
 }
 
 
 .horizontal-line-bottom-space {
-  margin-bottom: 20px;
+    margin-bottom: 20px;
 
 }
 
 .top-right-image {
-  float: right;
-  width: 300px;
+    float: right;
+    width: 300px;
 }
 
 #menu-title {
-  text-align: center;
-  color: white;
+    text-align: center;
+    color: white;
 }
 
 .lists {
-  font-family: "Book Antiqua";
-  font-size: x-large;
+    font-family: "Book Antiqua";
+    font-size: x-large;
+    text-align: left;
 }
 
-.strong-text{
-  font-weight: bolder;
+.strong-text {
+    font-weight: bolder;
 }
 
 #floating {
-  padding-right: 20px;
-  padding-left: 20px;
-  border-style: solid;
-  border-width: 5px;
-  border-color: darkred;
-  float: right;
-  background-repeat: no-repeat;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: darkred;
+    float: right;
+    background-repeat: no-repeat;
 }
 
